@@ -1,0 +1,279 @@
+{
+    "contractName": "HelloWorld",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [],
+            "name": "getHelloMessage",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"getHelloMessage\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/Code/Blockchain/firstProject/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"d:/Code/Blockchain/firstProject/contracts/HelloWorld.sol\":{\"keccak256\":\"0x871f36f47fa50eb5f0c3c79cdb70211c824c2aa6f589031b64683f62922e7d17\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://51c5ef01b172d668f9fa7b701a5d29e9760e3101237bcdb66e62d7d9e0aaae05\",\"dweb:/ipfs/QmNy5Hm7rC2UhkDYrm42rjmgr2wZH34yt3hg6zkfm45zBU\"]}},\"version\":1}",
+    "bytecode": "6080806040523460b9575f54600181811c9116801560b0575b6020821014609c57601f81116058575b507f48656c6c6f2c20576f726c64210000000000000000000000000000000000001a5f5561018f90816100be8239f35b5f8052601f0160051c7f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563908101905b818110609257506028565b5f81556001016087565b634e487b7160e01b5f52602260045260245ffd5b90607f16906018565b5f80fdfe6080600436101561000e575f80fd5b5f3560e01c633493b37c14610021575f80fd5b34610155575f366003190112610155575f5f54908160011c6001831692831561014b575b60208210841461013757818552602085019390811561011e57506001146100ca575b50829003601f01601f191682019167ffffffffffffffff8311818410176100b6576040918391828452602083525180918160208501528484015e5f828201840152601f01601f19168101030190f35b634e487b7160e01b5f52604160045260245ffd5b90505f80527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635f905b8282106101085750602091508301015f610067565b60018160209254838589010152019101906100f3565b60ff1916845250151560051b830160200190505f610067565b634e487b7160e01b5f52602260045260245ffd5b90607f1690610045565b5f80fdfea2646970667358221220cf5f85242f8650ea60e595d34cd340f3624890db8da0cb0567d3b9f99c8ef21264736f6c634300081b0033",
+    "deployedBytecode": "6080600436101561000e575f80fd5b5f3560e01c633493b37c14610021575f80fd5b34610155575f366003190112610155575f5f54908160011c6001831692831561014b575b60208210841461013757818552602085019390811561011e57506001146100ca575b50829003601f01601f191682019167ffffffffffffffff8311818410176100b6576040918391828452602083525180918160208501528484015e5f828201840152601f01601f19168101030190f35b634e487b7160e01b5f52604160045260245ffd5b90505f80527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635f905b8282106101085750602091508301015f610067565b60018160209254838589010152019101906100f3565b60ff1916845250151560051b830160200190505f610067565b634e487b7160e01b5f52602260045260245ffd5b90607f1690610045565b5f80fdfea2646970667358221220cf5f85242f8650ea60e595d34cd340f3624890db8da0cb0567d3b9f99c8ef21264736f6c634300081b0033",
+    "sourceMap": "70:238:0:-:0;;;;;;;158:30;70:238;;;;;;;;;;;-1:-1:-1;70:238:0;;;;;;;;;;;-1:-1:-1;;70:238:0;158:30;70:238;;;;;;;;;158:30;70:238;;;;;;;;;;;;;;;;;;;;;158:30;70:238;;;;;;;;;;158:30;70:238;;;;;158:30;70:238;;;;;;;;;;;",
+    "deployedSourceMap": "70:238:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;70:238:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;70:238:0;;;;;-1:-1:-1;;70:238:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;70:238:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;70:238:0;;;-1:-1:-1;70:238:0;;;;;;;;;-1:-1:-1;70:238:0;;;;;;;;;;;;;;;;;;;;;;;;;",
+    "sourcePath": "d:/Code/Blockchain/firstProject/contracts/HelloWorld.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.27+commit.40a35a09"
+    },
+    "ast": {
+        "absolutePath": "d:/Code/Blockchain/firstProject/contracts/HelloWorld.sol",
+        "exportedSymbols": {
+            "HelloWorld": [
+                20
+            ]
+        },
+        "id": 21,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "41:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HelloWorld",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 20,
+                "linearizedBaseContracts": [
+                    20
+                ],
+                "name": "HelloWorld",
+                "nameLocation": "79:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "helloMessage",
+                        "nameLocation": "112:12:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 20,
+                        "src": "97:27:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "97:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "body": {
+                            "id": 10,
+                            "nodeType": "Block",
+                            "src": "147:49:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 8,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 6,
+                                            "name": "helloMessage",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 3,
+                                            "src": "158:12:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage",
+                                                "typeString": "string storage ref"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "hexValue": "48656c6c6f2c20576f726c6421",
+                                            "id": 7,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "kind": "string",
+                                            "lValueRequested": false,
+                                            "nodeType": "Literal",
+                                            "src": "173:15:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_stringliteral_acaf3289d7b601cbd114fb36c4d29c85bbfd5e133f14cb355c3fd8d99367964f",
+                                                "typeString": "literal_string \"Hello, World!\""
+                                            },
+                                            "value": "Hello, World!"
+                                        },
+                                        "src": "158:30:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "id": 9,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "158:30:0"
+                                }
+                            ]
+                        },
+                        "id": 11,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "144:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "147:0:0"
+                        },
+                        "scope": 20,
+                        "src": "133:63:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 18,
+                            "nodeType": "Block",
+                            "src": "267:38:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 16,
+                                        "name": "helloMessage",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 3,
+                                        "src": "285:12:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "functionReturnParameters": 15,
+                                    "id": 17,
+                                    "nodeType": "Return",
+                                    "src": "278:19:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "3493b37c",
+                        "id": 19,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getHelloMessage",
+                        "nameLocation": "213:15:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 12,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "228:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 15,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 14,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 19,
+                                    "src": "252:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 13,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "252:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "251:15:0"
+                        },
+                        "scope": 20,
+                        "src": "204:101:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 21,
+                "src": "70:238:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "41:269:0"
+    },
+    "functionHashes": {
+        "getHelloMessage()": "3493b37c"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "79800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "getHelloMessage()": "infinite"
+        }
+    }
+}
